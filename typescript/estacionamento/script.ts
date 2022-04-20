@@ -71,7 +71,9 @@ interface Cliente extends Pessoa {
         }
 
     }
-      
+
+    patio().render(); 
+
     $("#save")?.addEventListener("click", () => { 
         const nome = $("#nome")?.value;
         const placa = $("#placa")?.value;
@@ -82,4 +84,5 @@ interface Cliente extends Pessoa {
         }
         patio().adicionar({ nome, placa, entrada: new Date().toISOString()}, true);
     });
+
 })();
