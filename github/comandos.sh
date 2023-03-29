@@ -17,5 +17,4 @@ git push -u origin main
 
 ### Forçar uma substituição de arquivos locais com a branch master
 git fetch --all git reset --hard origin/master
-
 ## lista dos commits antes de executar um rebase

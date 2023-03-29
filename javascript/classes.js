@@ -9,7 +9,7 @@ class Calculator {
   class Person{
       constructor(firstName, lastName) {
           this._firstName = firstName
-        this.lastName = lastName
+          this.lastName = lastName
       }
       get firstName(){
           return this._firstName

@@ -27,9 +27,12 @@ create -> O método create deve retornar uma view com um formulário.
 php artisan storage:link
 # criaru uma exception
 php artisan make:exception NoFileException.php
-
-
-
+php artisan make:exception NotParamInformedException
+php artisan make:exception NoFileException.php
+# criar uma migration 
+php artisan make:migration create_users_table --create=users
+#add collumn migration
+php artisan make:migration add_size_to_libraries --table=libraries
 
 
 
